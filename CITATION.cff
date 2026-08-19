@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: EMOP Common Data Model
+message: If you use EMOP, please cite it as below.
+type: software
+authors:
+  - family-names: Sayed Ahmed
+    given-names: Gehad
+version: 0.1.0
+date-released: "2026-08-19"
+license: Apache-2.0
+repository-code: https://github.com/gegesay89/emop
+url: https://carenova-ai.me/emop/
+abstract: >-
+  EMOP is an Egyptian profile of the OMOP Common Data Model.
+  Core clinical tables keep OMOP 5.4 names and grain. Additional
+  tables cover national identifiers, governorates, insurance schemes,
+  civil and military care, referrals, bilingual names, and national
+  source codes. Example vocabularies in this release are illustrative
+  and are not official government code lists.
+keywords:
+  - OMOP
+  - CDM
+  - Egypt
+  - observational research
+  - FHIR

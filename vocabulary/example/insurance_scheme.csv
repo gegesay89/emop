@@ -1,0 +1,7 @@
+insurance_scheme_id,scheme_code,scheme_name_en,scheme_name_ar,scheme_type,example_not_official
+1,UHIA,Universal Health Insurance Authority,الهيئة العامة للتأمين الصحي الشامل,social,false
+2,HIO,Health Insurance Organization,الهيئة العامة للتأمين الصحي,social,false
+3,AFMS,Armed Forces Medical Services,الخدمات الطبية بالقوات المسلحة,military,false
+4,POLICE,Police medical services,الخدمات الطبية للشرطة,military,false
+5,PRIVATE,Private insurance,تأمين خاص,private,false
+6,OOP,Out of pocket,إنفاق مباشر,out_of_pocket,false

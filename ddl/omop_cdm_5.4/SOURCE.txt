@@ -1,0 +1,8 @@
+OMOP CDM 5.4 PostgreSQL DDL, primary keys, constraints, and indices
+were taken from OHDSI/CommonDataModel tag v5.4.2:
+
+https://github.com/OHDSI/CommonDataModel/tree/v5.4.2/inst/ddl/5.4/postgresql
+
+License: Apache License 2.0.
+The placeholder @cdmDatabaseSchema. was replaced with emop. so the
+files run against the EMOP schema without a further template step.

@@ -1,0 +1,3 @@
+source_code,code_name_en,code_name_ar,domain_id,example_not_official
+EX-MOH-PROC-001,Outpatient surgical consultation,استشارة جراحية خارجية,Procedure,true
+EX-MOH-PROC-002,Haemoglobin laboratory test,تحليل هيموغلوبين,Procedure,true

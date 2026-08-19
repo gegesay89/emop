@@ -1,0 +1,19 @@
+EMOP Common Data Model
+Copyright 2026 Gehad Sayed Ahmed
+
+This product includes the OMOP Common Data Model 5.4, Copyright
+Observational Health Data Sciences and Informatics (OHDSI), licensed
+under the Apache License, Version 2.0.
+Source: https://github.com/OHDSI/CommonDataModel/tree/v5.4.2
+
+The Egyptian extension tables, example vocabularies, documentation,
+and this distribution's packaging are Copyright 2026 Gehad Sayed Ahmed.
+
+ISO 3166-2:EG governorate codes are published by the International
+Organization for Standardization. They are geographic codes, not
+Ministry of Health clinical codes.
+
+Example vocabulary rows in this repository are illustrative. They are
+not official codes of the Ministry of Health, the Universal Health
+Insurance Authority, the Health Insurance Organization, or any other
+Egyptian public authority.

@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.sql~ 
+.env
+.venv/
+__pycache__/
+*.pyc
+.psql_history

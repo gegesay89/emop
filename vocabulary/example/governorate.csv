@@ -1,0 +1,28 @@
+governorate_id,governorate_code,governorate_name_en,governorate_name_ar,region_name_en,region_name_ar,iso_3166_2,example_not_official
+1,C,Cairo,القاهرة,Greater Cairo,القاهرة الكبرى,EG-C,false
+2,GZ,Giza,الجيزة,Greater Cairo,القاهرة الكبرى,EG-GZ,false
+3,KB,Qalyubia,القليوبية,Greater Cairo,القاهرة الكبرى,EG-KB,false
+4,ALX,Alexandria,الإسكندرية,Alexandria,الإسكندرية,EG-ALX,false
+5,BH,Beheira,البحيرة,Delta,الدلتا,EG-BH,false
+6,DK,Dakahlia,الدقهلية,Delta,الدلتا,EG-DK,false
+7,GH,Gharbia,الغربية,Delta,الدلتا,EG-GH,false
+8,KFS,Kafr el-Sheikh,كفر الشيخ,Delta,الدلتا,EG-KFS,false
+9,MNF,Monufia,المنوفية,Delta,الدلتا,EG-MNF,false
+10,SHR,Al Sharqia,الشرقية,Delta,الدلتا,EG-SHR,false
+11,DT,Damietta,دمياط,Delta,الدلتا,EG-DT,false
+12,IS,Ismailia,الإسماعيلية,Canal,القناة,EG-IS,false
+13,PTS,Port Said,بورسعيد,Canal,القناة,EG-PTS,false
+14,SUZ,Suez,السويس,Canal,القناة,EG-SUZ,false
+15,SIN,North Sinai,شمال سيناء,Sinai,سيناء,EG-SIN,false
+16,JS,South Sinai,جنوب سيناء,Sinai,سيناء,EG-JS,false
+17,FYM,Faiyum,الفيوم,Upper Egypt,الصعيد,EG-FYM,false
+18,BNS,Beni Suef,بني سويف,Upper Egypt,الصعيد,EG-BNS,false
+19,MN,Minya,المنيا,Upper Egypt,الصعيد,EG-MN,false
+20,AST,Asyut,أسيوط,Upper Egypt,الصعيد,EG-AST,false
+21,SHG,Sohag,سوهاج,Upper Egypt,الصعيد,EG-SHG,false
+22,KN,Qena,قنا,Upper Egypt,الصعيد,EG-KN,false
+23,LX,Luxor,الأقصر,Upper Egypt,الصعيد,EG-LX,false
+24,ASN,Aswan,أسوان,Upper Egypt,الصعيد,EG-ASN,false
+25,BA,Red Sea,البحر الأحمر,Frontier,الحدود,EG-BA,false
+26,WAD,New Valley,الوادي الجديد,Frontier,الحدود,EG-WAD,false
+27,MT,Matrouh,مطروح,Frontier,الحدود,EG-MT,false

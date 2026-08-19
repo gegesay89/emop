@@ -1,0 +1,5 @@
+care_sector_id,sector_code,sector_name_en,sector_name_ar
+1,CIVIL,Civil,مدني
+2,MILITARY,Military,عسكري
+3,POLICE,Police,شرطة
+4,UNIVERSITY,University hospital,مستشفى جامعي
