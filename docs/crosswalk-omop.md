@@ -17,6 +17,7 @@ Egyptian tables have no OMOP twin. To participate in an OHDSI network study, map
 | `person_name_bilingual` | none | OMOP `person` has no name columns. Keep names out of network extracts. |
 | `source_vocabulary` / `source_code` | `vocabulary` / `concept` / `source_to_concept_map` | Load official lists into the OHDSI vocabulary tables when you have redistribution rights. The EMOP tables are the working area before that load. |
 | `source_code_omop_map` | `source_to_concept_map` | Same grain: source code to standard `concept_id`. |
+| `emop_cdm_source` | `cdm_source` | Keep both. `cdm_source` carries the OMOP version an OHDSI tool reads; `emop_cdm_source` records which EMOP release produced the instance. Drop the EMOP row from network extracts. |
 
 Local `concept_id` values in this repository start at 2,000,000,000. They must not collide with Athena standard IDs.
 

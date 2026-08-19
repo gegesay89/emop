@@ -9,10 +9,10 @@ Rows in this folder are for browsing the model. They are **not** official Egypti
 | `care_sector.csv` | Civil / military / police / university. |
 | `moh_procedure.example.csv` | Invented `EX-MOH-PROC-*` codes. |
 | `egyptian_drug.example.csv` | Invented `EX-EDRUG-*` codes. |
-| `icd10_eg.example.csv` | WHO ICD-10 codes with Arabic labels for layout only. |
+| `icd10_eg.example.csv` | Real WHO ICD-10 codes and titles; the Arabic labels are illustrative translations. |
 | `uhia_service.example.csv` | Invented `EX-UHIA-*` codes. |
 
-Every invented clinical or tariff code has `example_not_official=true` and a prefix `EX-`.
+Invented clinical and tariff codes carry `example_not_official=true` and an `EX-` prefix. Rows whose code is genuinely published — the ISO governorate codes and the WHO ICD-10 codes — carry `example_not_official=false`, because the code itself is real even when the Arabic label beside it is not an official Egyptian release. The `attribution` column on `icd10_eg.example.csv` and the `official_status` value on each `source_vocabulary` row record which case applies.
 
 Load the SQL form, not the CSV, into PostgreSQL:
 

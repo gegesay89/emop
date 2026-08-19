@@ -12,6 +12,8 @@ Economic: `payer_plan_period`, `cost`
 
 Derived: `drug_era`, `dose_era`, `condition_era`
 
+Cohort: `cohort`, `cohort_definition`
+
 Vocabulary: `concept`, `vocabulary`, `domain`, `concept_class`, `concept_relationship`, `relationship`, `concept_synonym`, `concept_ancestor`, `source_to_concept_map`, `drug_strength`
 
 Metadata: `cdm_source`, `metadata`

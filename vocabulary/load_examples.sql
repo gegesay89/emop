@@ -158,7 +158,7 @@ INSERT INTO emop.source_vocabulary (
 ) VALUES
     (1, 'MOH_PROCEDURE', 'Example Ministry of Health procedures', 'مثال إجراءات وزارة الصحة', 'example_not_official'),
     (2, 'EG_DRUG', 'Example Egyptian drug list', 'مثال قائمة الدواء المصرية', 'example_not_official'),
-    (3, 'ICD10_EG', 'Example bilingual ICD-10 labels', 'مثال تسميات ICD-10 بالعربي والإنجليزي', 'example_not_official'),
+    (3, 'ICD10_EG', 'WHO ICD-10 codes with illustrative Arabic labels', 'رموز ICD-10 مع تسميات عربية توضيحية', 'official_code_illustrative_label'),
     (4, 'UHIA_SERVICE', 'Example UHIA service lines', 'مثال بنود خدمات التأمين الشامل', 'example_not_official');
 
 INSERT INTO emop.source_code (
@@ -169,8 +169,8 @@ INSERT INTO emop.source_code (
     (2, 1, 'EX-MOH-PROC-002', 'Haemoglobin laboratory test', 'تحليل هيموغلوبين', 'Procedure', DATE '2026-01-01', NULL, TRUE),
     (3, 2, 'EX-EDRUG-001', 'Metformin 500 mg tablet', 'ميتفورمين 500 ملغ قرص', 'Drug', DATE '2026-01-01', NULL, TRUE),
     (4, 2, 'EX-EDRUG-002', 'Amoxicillin 500 mg capsule', 'أموكسيسيلين 500 ملغ كبسولة', 'Drug', DATE '2026-01-01', NULL, TRUE),
-    (5, 3, 'E11.9', 'Type 2 diabetes mellitus without complications', 'سكري النمط الثاني دون مضاعفات', 'Condition', DATE '2026-01-01', NULL, TRUE),
-    (6, 3, 'I10', 'Essential (primary) hypertension', 'فرط ضغط الدم الأساسي', 'Condition', DATE '2026-01-01', NULL, TRUE),
+    (5, 3, 'E11.9', 'Type 2 diabetes mellitus without complications', 'سكري النمط الثاني دون مضاعفات', 'Condition', DATE '2026-01-01', NULL, FALSE),
+    (6, 3, 'I10', 'Essential (primary) hypertension', 'فرط ضغط الدم الأساسي', 'Condition', DATE '2026-01-01', NULL, FALSE),
     (7, 4, 'EX-UHIA-OPD-001', 'Outpatient visit', 'زيارة عيادات خارجية', 'Observation', DATE '2026-01-01', NULL, TRUE);
 
 INSERT INTO emop.source_code_omop_map (

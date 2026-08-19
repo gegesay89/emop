@@ -34,7 +34,7 @@ That yields 52 tables — 39 from the OMOP core, 13 Egyptian — plus the 27 gov
 
 Invented clinical and tariff codes use an `EX-` prefix and `example_not_official = true`. They are there so the repository is browsable. They are not Ministry of Health, UHIA, or HIO releases.
 
-Governorate codes are ISO 3166-2:EG. Those are geographic codes, not a clinical terminology.
+Two kinds of row are genuinely published and are flagged accordingly. Governorate codes are ISO 3166-2:EG, a geographic standard rather than a clinical terminology. The two ICD-10 rows carry real WHO codes and titles; only the Arabic labels beside them are illustrative.
 
 Read [vocabulary/EXAMPLE_NOT_OFFICIAL.md](vocabulary/EXAMPLE_NOT_OFFICIAL.md) before citing any code from this repository.
 

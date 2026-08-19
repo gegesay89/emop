@@ -2,7 +2,6 @@
 .idea/
 .vscode/
 *.log
-*.sql~ 
 .env
 .venv/
 __pycache__/
