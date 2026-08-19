@@ -32,6 +32,7 @@ INSERT INTO emop.concept (
     concept_id, concept_name, domain_id, vocabulary_id, concept_class_id,
     standard_concept, concept_code, valid_start_date, valid_end_date, invalid_reason
 ) VALUES
+    (0, 'No matching concept', 'Metadata', 'EMOP Example', 'Undefined', NULL, 'No matching concept', DATE '1970-01-01', DATE '2099-12-31', NULL),
     (2000000000, 'EMOP CDM v0.1', 'Metadata', 'EMOP Example', 'CDM', 'S', 'EMOP_0_1', DATE '2026-08-19', DATE '2099-12-31', NULL),
     (2000000801, 'Arabic', 'Language', 'EMOP Example', 'Language', 'S', 'ar', DATE '2026-08-19', DATE '2099-12-31', NULL),
     (2000000802, 'English', 'Language', 'EMOP Example', 'Language', 'S', 'en', DATE '2026-08-19', DATE '2099-12-31', NULL),
@@ -61,6 +62,39 @@ INSERT INTO emop.vocabulary (
     '0.1.0',
     2000000000
 );
+
+-- Reference rows so the OHDSI foreign-key file can be applied on top of the
+-- example set. Domain and class concept ids point at the EMOP metadata concept
+-- because this release does not ship the Athena standard concepts.
+INSERT INTO emop.domain (domain_id, domain_name, domain_concept_id) VALUES
+    ('Metadata', 'Metadata', 2000000000),
+    ('Language', 'Language', 2000000000),
+    ('Gender', 'Gender', 2000000000),
+    ('Race', 'Race', 2000000000),
+    ('Ethnicity', 'Ethnicity', 2000000000),
+    ('Visit', 'Visit', 2000000000),
+    ('Type Concept', 'Type Concept', 2000000000),
+    ('Condition', 'Condition', 2000000000),
+    ('Drug', 'Drug', 2000000000),
+    ('Procedure', 'Procedure', 2000000000),
+    ('Observation', 'Observation', 2000000000);
+
+INSERT INTO emop.concept_class (concept_class_id, concept_class_name, concept_class_concept_id) VALUES
+    ('Undefined', 'Undefined', 2000000000),
+    ('CDM', 'CDM', 2000000000),
+    ('Language', 'Language', 2000000000),
+    ('Gender', 'Gender', 2000000000),
+    ('Race', 'Race', 2000000000),
+    ('Ethnicity', 'Ethnicity', 2000000000),
+    ('Visit', 'Visit', 2000000000),
+    ('Visit Type', 'Visit Type', 2000000000),
+    ('Period Type', 'Period Type', 2000000000),
+    ('Condition Type', 'Condition Type', 2000000000),
+    ('Drug Type', 'Drug Type', 2000000000),
+    ('Clinical Drug', 'Clinical Drug', 2000000000),
+    ('Procedure', 'Procedure', 2000000000),
+    ('Clinical Finding', 'Clinical Finding', 2000000000),
+    ('Service', 'Service', 2000000000);
 
 INSERT INTO emop.concept_synonym (concept_id, concept_synonym_name, language_concept_id) VALUES
     (2000001001, 'مثال ميتفورمين 500 ملغ', 2000000801),

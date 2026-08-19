@@ -28,7 +28,7 @@ psql postgres://localhost/emop -v ON_ERROR_STOP=1 -f vocabulary/load_examples.sq
 psql postgres://localhost/emop -v ON_ERROR_STOP=1 -f examples/toy_egypt.sql
 ```
 
-Details, including when to apply OHDSI foreign keys after an Athena vocabulary load, are in [ddl/README.md](ddl/README.md).
+That yields 52 tables — 39 from the OMOP core, 13 Egyptian — plus the 27 governorates and one fictional patient journey. Applying the OHDSI foreign-key and index files on top brings the schema to 194 foreign keys; see [ddl/README.md](ddl/README.md) for the order and for what changes when you load a real Athena vocabulary instead of the examples.
 
 ## Example codes
 
