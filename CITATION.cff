@@ -9,7 +9,7 @@ version: 0.1.0
 date-released: "2026-08-19"
 license: Apache-2.0
 repository-code: https://github.com/gegesay89/emop
-url: https://carenova-ai.me/emop/
+url: https://gegesay89.github.io/emop/
 abstract: >-
   EMOP is an Egyptian profile of the OMOP Common Data Model.
   Core clinical tables keep OMOP 5.4 names and grain. Additional

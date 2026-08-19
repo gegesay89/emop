@@ -24,7 +24,7 @@ INSERT INTO emop.cdm_source (
     'EMOP example', 'EMOP', 'Gehad Sayed Ahmed',
     'Toy Egyptian overlay on OMOP CDM 5.4',
     'https://github.com/gegesay89/emop',
-    'https://carenova-ai.me/emop/',
+    'https://gegesay89.github.io/emop/',
     DATE '2026-08-19', DATE '2026-08-19', '5.4', 2000000000, 'EMOP-example-0.1'
 );
 

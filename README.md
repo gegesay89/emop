@@ -4,7 +4,7 @@ EMOP is an Egyptian profile of the OMOP Common Data Model. The core clinical tab
 
 This is a named product, not a rename of OMOP. The OMOP 5.4 layout in this repository is the OHDSI Common Data Model, Apache License 2.0, from tag `v5.4.2`. The Egyptian tables, example vocabularies, and documentation are separate work.
 
-Site: [carenova-ai.me/emop](https://carenova-ai.me/emop/)
+Site: [gegesay89.github.io/emop](https://gegesay89.github.io/emop/)
 
 ## What v0.1 contains
 
