@@ -1,0 +1,134 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "emop-source-code-map",
+  "url": "https://gegesay89.github.io/emop/fhir/ConceptMap/emop-source-code-map",
+  "version": "0.1.0",
+  "name": "EmopSourceCodeMap",
+  "title": "Egyptian source codes to standard concepts",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-08-20",
+  "publisher": "Gehad Sayed Ahmed",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/gegesay89/emop"
+        }
+      ]
+    }
+  ],
+  "description": "Mirrors emop.source_code_omop_map. Each group is one national code system; every mapping records whether its source code is a published code or an illustrative example. Codes prefixed EX- are illustrative and are not issued by any Egyptian authority.",
+  "purpose": "Lets an exchange payload carry both the national source code and the standard concept it maps to, so a receiving system need not guess.",
+  "group": [
+    {
+      "source": "https://gegesay89.github.io/emop/fhir/CodeSystem/eg-drug",
+      "target": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-example-concept",
+      "element": [
+        {
+          "code": "EX-EDRUG-001",
+          "display": "Metformin 500 mg tablet",
+          "target": [
+            {
+              "code": "EX-EDRUG-001",
+              "display": "Example metformin 500 mg tablet",
+              "equivalence": "equivalent",
+              "comment": "Illustrative source code, not an official Egyptian release."
+            }
+          ]
+        },
+        {
+          "code": "EX-EDRUG-002",
+          "display": "Amoxicillin 500 mg capsule",
+          "target": [
+            {
+              "code": "EX-EDRUG-002",
+              "display": "Example amoxicillin 500 mg capsule",
+              "equivalence": "equivalent",
+              "comment": "Illustrative source code, not an official Egyptian release."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://gegesay89.github.io/emop/fhir/CodeSystem/icd10-eg",
+      "target": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-example-concept",
+      "element": [
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications",
+          "target": [
+            {
+              "code": "EX-ICD10-E11.9",
+              "display": "Example type 2 diabetes mellitus",
+              "equivalence": "equivalent",
+              "comment": "Published source code; the Arabic label is an illustrative translation."
+            }
+          ]
+        },
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension",
+          "target": [
+            {
+              "code": "EX-ICD10-I10",
+              "display": "Example essential hypertension",
+              "equivalence": "equivalent",
+              "comment": "Published source code; the Arabic label is an illustrative translation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://gegesay89.github.io/emop/fhir/CodeSystem/moh-procedure",
+      "target": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-example-concept",
+      "element": [
+        {
+          "code": "EX-MOH-PROC-001",
+          "display": "Outpatient surgical consultation",
+          "target": [
+            {
+              "code": "EX-MOH-PROC-001",
+              "display": "Example outpatient surgical consultation",
+              "equivalence": "equivalent",
+              "comment": "Illustrative source code, not an official Egyptian release."
+            }
+          ]
+        },
+        {
+          "code": "EX-MOH-PROC-002",
+          "display": "Haemoglobin laboratory test",
+          "target": [
+            {
+              "code": "EX-MOH-PROC-002",
+              "display": "Example haemoglobin laboratory test",
+              "equivalence": "equivalent",
+              "comment": "Illustrative source code, not an official Egyptian release."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://gegesay89.github.io/emop/fhir/CodeSystem/uhia-service",
+      "target": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-example-concept",
+      "element": [
+        {
+          "code": "EX-UHIA-OPD-001",
+          "display": "Outpatient visit",
+          "target": [
+            {
+              "code": "EX-UHIA-OPD-001",
+              "display": "Example UHIA outpatient visit line",
+              "equivalence": "equivalent",
+              "comment": "Illustrative source code, not an official Egyptian release."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "emop-governorate",
+  "url": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-governorate",
+  "version": "0.1.0",
+  "name": "EmopGovernorate",
+  "title": "Egyptian governorates",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-08-20",
+  "publisher": "Gehad Sayed Ahmed",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/gegesay89/emop"
+        }
+      ]
+    }
+  ],
+  "description": "The 27 governorates of Egypt with Arabic and English designations, the ISO 3166-2 subdivision code, and a regional grouping. These are geographic identifiers, not a clinical terminology.",
+  "caseSensitive": true,
+  "valueSet": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-governorate",
+  "content": "complete",
+  "count": 27,
+  "concept": [
+    {
+      "code": "C",
+      "display": "Cairo",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "القاهرة"
+        },
+        {
+          "language": "en",
+          "value": "Cairo"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-C"
+        },
+        {
+          "code": "region",
+          "valueString": "Greater Cairo"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "القاهرة الكبرى"
+        }
+      ]
+    },
+    {
+      "code": "GZ",
+      "display": "Giza",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الجيزة"
+        },
+        {
+          "language": "en",
+          "value": "Giza"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-GZ"
+        },
+        {
+          "code": "region",
+          "valueString": "Greater Cairo"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "القاهرة الكبرى"
+        }
+      ]
+    },
+    {
+      "code": "KB",
+      "display": "Qalyubia",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "القليوبية"
+        },
+        {
+          "language": "en",
+          "value": "Qalyubia"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-KB"
+        },
+        {
+          "code": "region",
+          "valueString": "Greater Cairo"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "القاهرة الكبرى"
+        }
+      ]
+    },
+    {
+      "code": "ALX",
+      "display": "Alexandria",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الإسكندرية"
+        },
+        {
+          "language": "en",
+          "value": "Alexandria"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-ALX"
+        },
+        {
+          "code": "region",
+          "valueString": "Alexandria"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الإسكندرية"
+        }
+      ]
+    },
+    {
+      "code": "BH",
+      "display": "Beheira",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "البحيرة"
+        },
+        {
+          "language": "en",
+          "value": "Beheira"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-BH"
+        },
+        {
+          "code": "region",
+          "valueString": "Delta"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الدلتا"
+        }
+      ]
+    },
+    {
+      "code": "DK",
+      "display": "Dakahlia",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الدقهلية"
+        },
+        {
+          "language": "en",
+          "value": "Dakahlia"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-DK"
+        },
+        {
+          "code": "region",
+          "valueString": "Delta"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الدلتا"
+        }
+      ]
+    },
+    {
+      "code": "GH",
+      "display": "Gharbia",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الغربية"
+        },
+        {
+          "language": "en",
+          "value": "Gharbia"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-GH"
+        },
+        {
+          "code": "region",
+          "valueString": "Delta"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الدلتا"
+        }
+      ]
+    },
+    {
+      "code": "KFS",
+      "display": "Kafr el-Sheikh",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "كفر الشيخ"
+        },
+        {
+          "language": "en",
+          "value": "Kafr el-Sheikh"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-KFS"
+        },
+        {
+          "code": "region",
+          "valueString": "Delta"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الدلتا"
+        }
+      ]
+    },
+    {
+      "code": "MNF",
+      "display": "Monufia",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "المنوفية"
+        },
+        {
+          "language": "en",
+          "value": "Monufia"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-MNF"
+        },
+        {
+          "code": "region",
+          "valueString": "Delta"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الدلتا"
+        }
+      ]
+    },
+    {
+      "code": "SHR",
+      "display": "Al Sharqia",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الشرقية"
+        },
+        {
+          "language": "en",
+          "value": "Al Sharqia"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-SHR"
+        },
+        {
+          "code": "region",
+          "valueString": "Delta"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الدلتا"
+        }
+      ]
+    },
+    {
+      "code": "DT",
+      "display": "Damietta",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "دمياط"
+        },
+        {
+          "language": "en",
+          "value": "Damietta"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-DT"
+        },
+        {
+          "code": "region",
+          "valueString": "Delta"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الدلتا"
+        }
+      ]
+    },
+    {
+      "code": "IS",
+      "display": "Ismailia",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الإسماعيلية"
+        },
+        {
+          "language": "en",
+          "value": "Ismailia"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-IS"
+        },
+        {
+          "code": "region",
+          "valueString": "Canal"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "القناة"
+        }
+      ]
+    },
+    {
+      "code": "PTS",
+      "display": "Port Said",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "بورسعيد"
+        },
+        {
+          "language": "en",
+          "value": "Port Said"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-PTS"
+        },
+        {
+          "code": "region",
+          "valueString": "Canal"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "القناة"
+        }
+      ]
+    },
+    {
+      "code": "SUZ",
+      "display": "Suez",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "السويس"
+        },
+        {
+          "language": "en",
+          "value": "Suez"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-SUZ"
+        },
+        {
+          "code": "region",
+          "valueString": "Canal"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "القناة"
+        }
+      ]
+    },
+    {
+      "code": "SIN",
+      "display": "North Sinai",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "شمال سيناء"
+        },
+        {
+          "language": "en",
+          "value": "North Sinai"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-SIN"
+        },
+        {
+          "code": "region",
+          "valueString": "Sinai"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "سيناء"
+        }
+      ]
+    },
+    {
+      "code": "JS",
+      "display": "South Sinai",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "جنوب سيناء"
+        },
+        {
+          "language": "en",
+          "value": "South Sinai"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-JS"
+        },
+        {
+          "code": "region",
+          "valueString": "Sinai"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "سيناء"
+        }
+      ]
+    },
+    {
+      "code": "FYM",
+      "display": "Faiyum",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الفيوم"
+        },
+        {
+          "language": "en",
+          "value": "Faiyum"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-FYM"
+        },
+        {
+          "code": "region",
+          "valueString": "Upper Egypt"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الصعيد"
+        }
+      ]
+    },
+    {
+      "code": "BNS",
+      "display": "Beni Suef",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "بني سويف"
+        },
+        {
+          "language": "en",
+          "value": "Beni Suef"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-BNS"
+        },
+        {
+          "code": "region",
+          "valueString": "Upper Egypt"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الصعيد"
+        }
+      ]
+    },
+    {
+      "code": "MN",
+      "display": "Minya",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "المنيا"
+        },
+        {
+          "language": "en",
+          "value": "Minya"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-MN"
+        },
+        {
+          "code": "region",
+          "valueString": "Upper Egypt"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الصعيد"
+        }
+      ]
+    },
+    {
+      "code": "AST",
+      "display": "Asyut",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "أسيوط"
+        },
+        {
+          "language": "en",
+          "value": "Asyut"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-AST"
+        },
+        {
+          "code": "region",
+          "valueString": "Upper Egypt"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الصعيد"
+        }
+      ]
+    },
+    {
+      "code": "SHG",
+      "display": "Sohag",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "سوهاج"
+        },
+        {
+          "language": "en",
+          "value": "Sohag"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-SHG"
+        },
+        {
+          "code": "region",
+          "valueString": "Upper Egypt"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الصعيد"
+        }
+      ]
+    },
+    {
+      "code": "KN",
+      "display": "Qena",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "قنا"
+        },
+        {
+          "language": "en",
+          "value": "Qena"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-KN"
+        },
+        {
+          "code": "region",
+          "valueString": "Upper Egypt"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الصعيد"
+        }
+      ]
+    },
+    {
+      "code": "LX",
+      "display": "Luxor",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الأقصر"
+        },
+        {
+          "language": "en",
+          "value": "Luxor"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-LX"
+        },
+        {
+          "code": "region",
+          "valueString": "Upper Egypt"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الصعيد"
+        }
+      ]
+    },
+    {
+      "code": "ASN",
+      "display": "Aswan",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "أسوان"
+        },
+        {
+          "language": "en",
+          "value": "Aswan"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-ASN"
+        },
+        {
+          "code": "region",
+          "valueString": "Upper Egypt"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الصعيد"
+        }
+      ]
+    },
+    {
+      "code": "BA",
+      "display": "Red Sea",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "البحر الأحمر"
+        },
+        {
+          "language": "en",
+          "value": "Red Sea"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-BA"
+        },
+        {
+          "code": "region",
+          "valueString": "Frontier"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الحدود"
+        }
+      ]
+    },
+    {
+      "code": "WAD",
+      "display": "New Valley",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الوادي الجديد"
+        },
+        {
+          "language": "en",
+          "value": "New Valley"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-WAD"
+        },
+        {
+          "code": "region",
+          "valueString": "Frontier"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الحدود"
+        }
+      ]
+    },
+    {
+      "code": "MT",
+      "display": "Matrouh",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "مطروح"
+        },
+        {
+          "language": "en",
+          "value": "Matrouh"
+        }
+      ],
+      "property": [
+        {
+          "code": "iso-3166-2",
+          "valueString": "EG-MT"
+        },
+        {
+          "code": "region",
+          "valueString": "Frontier"
+        },
+        {
+          "code": "region-ar",
+          "valueString": "الحدود"
+        }
+      ]
+    }
+  ],
+  "copyright": "ISO 3166-2 subdivision codes are published by the International Organization for Standardization. Regional groupings and this packaging are the work of the publisher.",
+  "property": [
+    {
+      "code": "iso-3166-2",
+      "description": "ISO 3166-2:EG subdivision code",
+      "type": "string"
+    },
+    {
+      "code": "region",
+      "description": "Regional grouping, English",
+      "type": "string"
+    },
+    {
+      "code": "region-ar",
+      "description": "Regional grouping, Arabic",
+      "type": "string"
+    }
+  ]
+}

@@ -12,7 +12,7 @@ Site: [gegesay89.github.io/emop](https://gegesay89.github.io/emop/)
 - Egyptian extension tables (see [docs/tables.md](docs/tables.md))
 - Example vocabularies, clearly marked **not official**
 - A table-by-table crosswalk back to OMOP ([docs/crosswalk-omop.md](docs/crosswalk-omop.md))
-- A short FHIR mapping note ([docs/fhir-mapping.md](docs/fhir-mapping.md))
+- FHIR R4 terminology resources and an element-level mapping ([fhir/](fhir/), [docs/fhir-mapping.md](docs/fhir-mapping.md))
 - One fictional person in [examples/toy_egypt.sql](examples/toy_egypt.sql)
 
 OHDSI Atlas and network studies expect a stock OMOP instance. They will not see the Egyptian tables unless you map through the crosswalk. That is expected for this profile.
@@ -37,6 +37,12 @@ Invented clinical and tariff codes use an `EX-` prefix and `example_not_official
 Two kinds of row are genuinely published and are flagged accordingly. Governorate codes are ISO 3166-2:EG, a geographic standard rather than a clinical terminology. The two ICD-10 rows carry real WHO codes and titles; only the Arabic labels beside them are illustrative.
 
 Read [vocabulary/EXAMPLE_NOT_OFFICIAL.md](vocabulary/EXAMPLE_NOT_OFFICIAL.md) before citing any code from this repository.
+
+## Exchanging data between systems
+
+Ten FHIR R4 terminology resources ship in [fhir/](fhir/): code systems for the governorates, payer organisations, care sectors, and identifier types, a value set for each, and a concept map from national codes to standard concepts. All validate against the official FHIR R4 JSON schema and are generated from the same SQL as the database, so they cannot drift.
+
+Element-level mapping guidance is in [docs/fhir-mapping.md](docs/fhir-mapping.md). No conformance profiles are published — Egypt has no public national implementation guide to align them to, and guessing at one would be the same overreach as inventing official codes.
 
 ## Related work
 

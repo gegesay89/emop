@@ -1,0 +1,85 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "emop-care-sector",
+  "url": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-care-sector",
+  "version": "0.1.0",
+  "name": "EmopCareSector",
+  "title": "Egyptian care sectors",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-08-20",
+  "publisher": "Gehad Sayed Ahmed",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/gegesay89/emop"
+        }
+      ]
+    }
+  ],
+  "description": "The parallel care systems through which health care is delivered in Egypt. Funding and governance differ between sectors, so the distinction is analytically material.",
+  "caseSensitive": true,
+  "valueSet": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-care-sector",
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "CIVIL",
+      "display": "Civil",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "مدني"
+        },
+        {
+          "language": "en",
+          "value": "Civil"
+        }
+      ]
+    },
+    {
+      "code": "MILITARY",
+      "display": "Military",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "عسكري"
+        },
+        {
+          "language": "en",
+          "value": "Military"
+        }
+      ]
+    },
+    {
+      "code": "POLICE",
+      "display": "Police",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "شرطة"
+        },
+        {
+          "language": "en",
+          "value": "Police"
+        }
+      ]
+    },
+    {
+      "code": "UNIVERSITY",
+      "display": "University hospital",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "مستشفى جامعي"
+        },
+        {
+          "language": "en",
+          "value": "University hospital"
+        }
+      ]
+    }
+  ]
+}

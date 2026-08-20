@@ -1,0 +1,1422 @@
+{
+  "resourceType": "Bundle",
+  "id": "emop-terminology",
+  "type": "collection",
+  "timestamp": "2026-08-20T00:00:00Z",
+  "entry": [
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-governorate",
+      "resource": {
+        "resourceType": "CodeSystem",
+        "id": "emop-governorate",
+        "url": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-governorate",
+        "version": "0.1.0",
+        "name": "EmopGovernorate",
+        "title": "Egyptian governorates",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "The 27 governorates of Egypt with Arabic and English designations, the ISO 3166-2 subdivision code, and a regional grouping. These are geographic identifiers, not a clinical terminology.",
+        "caseSensitive": true,
+        "valueSet": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-governorate",
+        "content": "complete",
+        "count": 27,
+        "concept": [
+          {
+            "code": "C",
+            "display": "Cairo",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "القاهرة"
+              },
+              {
+                "language": "en",
+                "value": "Cairo"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-C"
+              },
+              {
+                "code": "region",
+                "valueString": "Greater Cairo"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "القاهرة الكبرى"
+              }
+            ]
+          },
+          {
+            "code": "GZ",
+            "display": "Giza",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الجيزة"
+              },
+              {
+                "language": "en",
+                "value": "Giza"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-GZ"
+              },
+              {
+                "code": "region",
+                "valueString": "Greater Cairo"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "القاهرة الكبرى"
+              }
+            ]
+          },
+          {
+            "code": "KB",
+            "display": "Qalyubia",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "القليوبية"
+              },
+              {
+                "language": "en",
+                "value": "Qalyubia"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-KB"
+              },
+              {
+                "code": "region",
+                "valueString": "Greater Cairo"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "القاهرة الكبرى"
+              }
+            ]
+          },
+          {
+            "code": "ALX",
+            "display": "Alexandria",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الإسكندرية"
+              },
+              {
+                "language": "en",
+                "value": "Alexandria"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-ALX"
+              },
+              {
+                "code": "region",
+                "valueString": "Alexandria"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الإسكندرية"
+              }
+            ]
+          },
+          {
+            "code": "BH",
+            "display": "Beheira",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "البحيرة"
+              },
+              {
+                "language": "en",
+                "value": "Beheira"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-BH"
+              },
+              {
+                "code": "region",
+                "valueString": "Delta"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الدلتا"
+              }
+            ]
+          },
+          {
+            "code": "DK",
+            "display": "Dakahlia",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الدقهلية"
+              },
+              {
+                "language": "en",
+                "value": "Dakahlia"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-DK"
+              },
+              {
+                "code": "region",
+                "valueString": "Delta"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الدلتا"
+              }
+            ]
+          },
+          {
+            "code": "GH",
+            "display": "Gharbia",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الغربية"
+              },
+              {
+                "language": "en",
+                "value": "Gharbia"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-GH"
+              },
+              {
+                "code": "region",
+                "valueString": "Delta"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الدلتا"
+              }
+            ]
+          },
+          {
+            "code": "KFS",
+            "display": "Kafr el-Sheikh",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "كفر الشيخ"
+              },
+              {
+                "language": "en",
+                "value": "Kafr el-Sheikh"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-KFS"
+              },
+              {
+                "code": "region",
+                "valueString": "Delta"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الدلتا"
+              }
+            ]
+          },
+          {
+            "code": "MNF",
+            "display": "Monufia",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "المنوفية"
+              },
+              {
+                "language": "en",
+                "value": "Monufia"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-MNF"
+              },
+              {
+                "code": "region",
+                "valueString": "Delta"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الدلتا"
+              }
+            ]
+          },
+          {
+            "code": "SHR",
+            "display": "Al Sharqia",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الشرقية"
+              },
+              {
+                "language": "en",
+                "value": "Al Sharqia"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-SHR"
+              },
+              {
+                "code": "region",
+                "valueString": "Delta"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الدلتا"
+              }
+            ]
+          },
+          {
+            "code": "DT",
+            "display": "Damietta",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "دمياط"
+              },
+              {
+                "language": "en",
+                "value": "Damietta"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-DT"
+              },
+              {
+                "code": "region",
+                "valueString": "Delta"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الدلتا"
+              }
+            ]
+          },
+          {
+            "code": "IS",
+            "display": "Ismailia",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الإسماعيلية"
+              },
+              {
+                "language": "en",
+                "value": "Ismailia"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-IS"
+              },
+              {
+                "code": "region",
+                "valueString": "Canal"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "القناة"
+              }
+            ]
+          },
+          {
+            "code": "PTS",
+            "display": "Port Said",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "بورسعيد"
+              },
+              {
+                "language": "en",
+                "value": "Port Said"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-PTS"
+              },
+              {
+                "code": "region",
+                "valueString": "Canal"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "القناة"
+              }
+            ]
+          },
+          {
+            "code": "SUZ",
+            "display": "Suez",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "السويس"
+              },
+              {
+                "language": "en",
+                "value": "Suez"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-SUZ"
+              },
+              {
+                "code": "region",
+                "valueString": "Canal"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "القناة"
+              }
+            ]
+          },
+          {
+            "code": "SIN",
+            "display": "North Sinai",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "شمال سيناء"
+              },
+              {
+                "language": "en",
+                "value": "North Sinai"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-SIN"
+              },
+              {
+                "code": "region",
+                "valueString": "Sinai"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "سيناء"
+              }
+            ]
+          },
+          {
+            "code": "JS",
+            "display": "South Sinai",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "جنوب سيناء"
+              },
+              {
+                "language": "en",
+                "value": "South Sinai"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-JS"
+              },
+              {
+                "code": "region",
+                "valueString": "Sinai"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "سيناء"
+              }
+            ]
+          },
+          {
+            "code": "FYM",
+            "display": "Faiyum",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الفيوم"
+              },
+              {
+                "language": "en",
+                "value": "Faiyum"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-FYM"
+              },
+              {
+                "code": "region",
+                "valueString": "Upper Egypt"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الصعيد"
+              }
+            ]
+          },
+          {
+            "code": "BNS",
+            "display": "Beni Suef",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "بني سويف"
+              },
+              {
+                "language": "en",
+                "value": "Beni Suef"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-BNS"
+              },
+              {
+                "code": "region",
+                "valueString": "Upper Egypt"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الصعيد"
+              }
+            ]
+          },
+          {
+            "code": "MN",
+            "display": "Minya",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "المنيا"
+              },
+              {
+                "language": "en",
+                "value": "Minya"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-MN"
+              },
+              {
+                "code": "region",
+                "valueString": "Upper Egypt"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الصعيد"
+              }
+            ]
+          },
+          {
+            "code": "AST",
+            "display": "Asyut",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "أسيوط"
+              },
+              {
+                "language": "en",
+                "value": "Asyut"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-AST"
+              },
+              {
+                "code": "region",
+                "valueString": "Upper Egypt"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الصعيد"
+              }
+            ]
+          },
+          {
+            "code": "SHG",
+            "display": "Sohag",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "سوهاج"
+              },
+              {
+                "language": "en",
+                "value": "Sohag"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-SHG"
+              },
+              {
+                "code": "region",
+                "valueString": "Upper Egypt"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الصعيد"
+              }
+            ]
+          },
+          {
+            "code": "KN",
+            "display": "Qena",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "قنا"
+              },
+              {
+                "language": "en",
+                "value": "Qena"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-KN"
+              },
+              {
+                "code": "region",
+                "valueString": "Upper Egypt"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الصعيد"
+              }
+            ]
+          },
+          {
+            "code": "LX",
+            "display": "Luxor",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الأقصر"
+              },
+              {
+                "language": "en",
+                "value": "Luxor"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-LX"
+              },
+              {
+                "code": "region",
+                "valueString": "Upper Egypt"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الصعيد"
+              }
+            ]
+          },
+          {
+            "code": "ASN",
+            "display": "Aswan",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "أسوان"
+              },
+              {
+                "language": "en",
+                "value": "Aswan"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-ASN"
+              },
+              {
+                "code": "region",
+                "valueString": "Upper Egypt"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الصعيد"
+              }
+            ]
+          },
+          {
+            "code": "BA",
+            "display": "Red Sea",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "البحر الأحمر"
+              },
+              {
+                "language": "en",
+                "value": "Red Sea"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-BA"
+              },
+              {
+                "code": "region",
+                "valueString": "Frontier"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الحدود"
+              }
+            ]
+          },
+          {
+            "code": "WAD",
+            "display": "New Valley",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الوادي الجديد"
+              },
+              {
+                "language": "en",
+                "value": "New Valley"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-WAD"
+              },
+              {
+                "code": "region",
+                "valueString": "Frontier"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الحدود"
+              }
+            ]
+          },
+          {
+            "code": "MT",
+            "display": "Matrouh",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "مطروح"
+              },
+              {
+                "language": "en",
+                "value": "Matrouh"
+              }
+            ],
+            "property": [
+              {
+                "code": "iso-3166-2",
+                "valueString": "EG-MT"
+              },
+              {
+                "code": "region",
+                "valueString": "Frontier"
+              },
+              {
+                "code": "region-ar",
+                "valueString": "الحدود"
+              }
+            ]
+          }
+        ],
+        "copyright": "ISO 3166-2 subdivision codes are published by the International Organization for Standardization. Regional groupings and this packaging are the work of the publisher.",
+        "property": [
+          {
+            "code": "iso-3166-2",
+            "description": "ISO 3166-2:EG subdivision code",
+            "type": "string"
+          },
+          {
+            "code": "region",
+            "description": "Regional grouping, English",
+            "type": "string"
+          },
+          {
+            "code": "region-ar",
+            "description": "Regional grouping, Arabic",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-governorate",
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "emop-governorate",
+        "url": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-governorate",
+        "version": "0.1.0",
+        "name": "EmopGovernorateVS",
+        "title": "Egyptian governorates",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "All 27 Egyptian governorates. Suitable for Address.state and Location.address.state.",
+        "compose": {
+          "include": [
+            {
+              "system": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-governorate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-insurance-scheme",
+      "resource": {
+        "resourceType": "CodeSystem",
+        "id": "emop-insurance-scheme",
+        "url": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-insurance-scheme",
+        "version": "0.1.0",
+        "name": "EmopInsuranceScheme",
+        "title": "Egyptian health insurance schemes",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "Payer organisations operating in Egypt, for use as Coverage.payor and Coverage.type. Organisation names are public; this code system carries no benefit schedule, tariff, or eligibility rule.",
+        "caseSensitive": true,
+        "valueSet": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-insurance-scheme",
+        "content": "complete",
+        "count": 6,
+        "concept": [
+          {
+            "code": "UHIA",
+            "display": "Universal Health Insurance Authority",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الهيئة العامة للتأمين الصحي الشامل"
+              },
+              {
+                "language": "en",
+                "value": "Universal Health Insurance Authority"
+              }
+            ],
+            "property": [
+              {
+                "code": "scheme-type",
+                "valueString": "social"
+              }
+            ]
+          },
+          {
+            "code": "HIO",
+            "display": "Health Insurance Organization",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الهيئة العامة للتأمين الصحي"
+              },
+              {
+                "language": "en",
+                "value": "Health Insurance Organization"
+              }
+            ],
+            "property": [
+              {
+                "code": "scheme-type",
+                "valueString": "social"
+              }
+            ]
+          },
+          {
+            "code": "AFMS",
+            "display": "Armed Forces Medical Services",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الخدمات الطبية بالقوات المسلحة"
+              },
+              {
+                "language": "en",
+                "value": "Armed Forces Medical Services"
+              }
+            ],
+            "property": [
+              {
+                "code": "scheme-type",
+                "valueString": "military"
+              }
+            ]
+          },
+          {
+            "code": "POLICE",
+            "display": "Police medical services",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الخدمات الطبية للشرطة"
+              },
+              {
+                "language": "en",
+                "value": "Police medical services"
+              }
+            ],
+            "property": [
+              {
+                "code": "scheme-type",
+                "valueString": "military"
+              }
+            ]
+          },
+          {
+            "code": "PRIVATE",
+            "display": "Private insurance",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "تأمين خاص"
+              },
+              {
+                "language": "en",
+                "value": "Private insurance"
+              }
+            ],
+            "property": [
+              {
+                "code": "scheme-type",
+                "valueString": "private"
+              }
+            ]
+          },
+          {
+            "code": "OOP",
+            "display": "Out of pocket",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "إنفاق مباشر"
+              },
+              {
+                "language": "en",
+                "value": "Out of pocket"
+              }
+            ],
+            "property": [
+              {
+                "code": "scheme-type",
+                "valueString": "out_of_pocket"
+              }
+            ]
+          }
+        ],
+        "property": [
+          {
+            "code": "scheme-type",
+            "description": "social, military, private, or out_of_pocket",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-insurance-scheme",
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "emop-insurance-scheme",
+        "url": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-insurance-scheme",
+        "version": "0.1.0",
+        "name": "EmopInsuranceSchemeVS",
+        "title": "Egyptian health insurance schemes",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "Payer organisations for Coverage.payor and Coverage.type.",
+        "compose": {
+          "include": [
+            {
+              "system": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-insurance-scheme"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-care-sector",
+      "resource": {
+        "resourceType": "CodeSystem",
+        "id": "emop-care-sector",
+        "url": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-care-sector",
+        "version": "0.1.0",
+        "name": "EmopCareSector",
+        "title": "Egyptian care sectors",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "The parallel care systems through which health care is delivered in Egypt. Funding and governance differ between sectors, so the distinction is analytically material.",
+        "caseSensitive": true,
+        "valueSet": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-care-sector",
+        "content": "complete",
+        "count": 4,
+        "concept": [
+          {
+            "code": "CIVIL",
+            "display": "Civil",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "مدني"
+              },
+              {
+                "language": "en",
+                "value": "Civil"
+              }
+            ]
+          },
+          {
+            "code": "MILITARY",
+            "display": "Military",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "عسكري"
+              },
+              {
+                "language": "en",
+                "value": "Military"
+              }
+            ]
+          },
+          {
+            "code": "POLICE",
+            "display": "Police",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "شرطة"
+              },
+              {
+                "language": "en",
+                "value": "Police"
+              }
+            ]
+          },
+          {
+            "code": "UNIVERSITY",
+            "display": "University hospital",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "مستشفى جامعي"
+              },
+              {
+                "language": "en",
+                "value": "University hospital"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-care-sector",
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "emop-care-sector",
+        "url": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-care-sector",
+        "version": "0.1.0",
+        "name": "EmopCareSectorVS",
+        "title": "Egyptian care sectors",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "Civil, military, police, and university care.",
+        "compose": {
+          "include": [
+            {
+              "system": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-care-sector"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-identifier-type",
+      "resource": {
+        "resourceType": "CodeSystem",
+        "id": "emop-identifier-type",
+        "url": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-identifier-type",
+        "version": "0.1.0",
+        "name": "EmopIdentifierType",
+        "title": "Egyptian patient identifier types",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "Identifier types a patient may hold, for use as Patient.identifier.type. A patient may hold more than one; each is a separate Patient.identifier entry.",
+        "caseSensitive": true,
+        "valueSet": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-identifier-type",
+        "content": "complete",
+        "count": 4,
+        "concept": [
+          {
+            "code": "national_id",
+            "display": "National identity number",
+            "definition": "14 digits, issued nationally",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الرقم القومي"
+              },
+              {
+                "language": "en",
+                "value": "National identity number"
+              }
+            ]
+          },
+          {
+            "code": "passport",
+            "display": "Passport number",
+            "definition": "Used where no national identity number exists",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "رقم جواز السفر"
+              },
+              {
+                "language": "en",
+                "value": "Passport number"
+              }
+            ]
+          },
+          {
+            "code": "military_id",
+            "display": "Military identity number",
+            "definition": "Issued within the military care sector",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "الرقم العسكري"
+              },
+              {
+                "language": "en",
+                "value": "Military identity number"
+              }
+            ]
+          },
+          {
+            "code": "refugee",
+            "display": "Refugee registration number",
+            "definition": "Issued by the registering agency",
+            "designation": [
+              {
+                "language": "ar",
+                "value": "رقم تسجيل اللاجئ"
+              },
+              {
+                "language": "en",
+                "value": "Refugee registration number"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-identifier-type",
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "emop-identifier-type",
+        "url": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-identifier-type",
+        "version": "0.1.0",
+        "name": "EmopIdentifierTypeVS",
+        "title": "Egyptian patient identifier types",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "Identifier types for Patient.identifier.type.",
+        "compose": {
+          "include": [
+            {
+              "system": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-identifier-type"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gegesay89.github.io/emop/fhir/ConceptMap/emop-source-code-map",
+      "resource": {
+        "resourceType": "ConceptMap",
+        "id": "emop-source-code-map",
+        "url": "https://gegesay89.github.io/emop/fhir/ConceptMap/emop-source-code-map",
+        "version": "0.1.0",
+        "name": "EmopSourceCodeMap",
+        "title": "Egyptian source codes to standard concepts",
+        "status": "draft",
+        "experimental": true,
+        "date": "2026-08-20",
+        "publisher": "Gehad Sayed Ahmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "https://github.com/gegesay89/emop"
+              }
+            ]
+          }
+        ],
+        "description": "Mirrors emop.source_code_omop_map. Each group is one national code system; every mapping records whether its source code is a published code or an illustrative example. Codes prefixed EX- are illustrative and are not issued by any Egyptian authority.",
+        "purpose": "Lets an exchange payload carry both the national source code and the standard concept it maps to, so a receiving system need not guess.",
+        "group": [
+          {
+            "source": "https://gegesay89.github.io/emop/fhir/CodeSystem/eg-drug",
+            "target": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-example-concept",
+            "element": [
+              {
+                "code": "EX-EDRUG-001",
+                "display": "Metformin 500 mg tablet",
+                "target": [
+                  {
+                    "code": "EX-EDRUG-001",
+                    "display": "Example metformin 500 mg tablet",
+                    "equivalence": "equivalent",
+                    "comment": "Illustrative source code, not an official Egyptian release."
+                  }
+                ]
+              },
+              {
+                "code": "EX-EDRUG-002",
+                "display": "Amoxicillin 500 mg capsule",
+                "target": [
+                  {
+                    "code": "EX-EDRUG-002",
+                    "display": "Example amoxicillin 500 mg capsule",
+                    "equivalence": "equivalent",
+                    "comment": "Illustrative source code, not an official Egyptian release."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "https://gegesay89.github.io/emop/fhir/CodeSystem/icd10-eg",
+            "target": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-example-concept",
+            "element": [
+              {
+                "code": "E11.9",
+                "display": "Type 2 diabetes mellitus without complications",
+                "target": [
+                  {
+                    "code": "EX-ICD10-E11.9",
+                    "display": "Example type 2 diabetes mellitus",
+                    "equivalence": "equivalent",
+                    "comment": "Published source code; the Arabic label is an illustrative translation."
+                  }
+                ]
+              },
+              {
+                "code": "I10",
+                "display": "Essential (primary) hypertension",
+                "target": [
+                  {
+                    "code": "EX-ICD10-I10",
+                    "display": "Example essential hypertension",
+                    "equivalence": "equivalent",
+                    "comment": "Published source code; the Arabic label is an illustrative translation."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "https://gegesay89.github.io/emop/fhir/CodeSystem/moh-procedure",
+            "target": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-example-concept",
+            "element": [
+              {
+                "code": "EX-MOH-PROC-001",
+                "display": "Outpatient surgical consultation",
+                "target": [
+                  {
+                    "code": "EX-MOH-PROC-001",
+                    "display": "Example outpatient surgical consultation",
+                    "equivalence": "equivalent",
+                    "comment": "Illustrative source code, not an official Egyptian release."
+                  }
+                ]
+              },
+              {
+                "code": "EX-MOH-PROC-002",
+                "display": "Haemoglobin laboratory test",
+                "target": [
+                  {
+                    "code": "EX-MOH-PROC-002",
+                    "display": "Example haemoglobin laboratory test",
+                    "equivalence": "equivalent",
+                    "comment": "Illustrative source code, not an official Egyptian release."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "https://gegesay89.github.io/emop/fhir/CodeSystem/uhia-service",
+            "target": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-example-concept",
+            "element": [
+              {
+                "code": "EX-UHIA-OPD-001",
+                "display": "Outpatient visit",
+                "target": [
+                  {
+                    "code": "EX-UHIA-OPD-001",
+                    "display": "Example UHIA outpatient visit line",
+                    "equivalence": "equivalent",
+                    "comment": "Illustrative source code, not an official Egyptian release."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "id": "emop-insurance-scheme",
+  "url": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-insurance-scheme",
+  "version": "0.1.0",
+  "name": "EmopInsuranceSchemeVS",
+  "title": "Egyptian health insurance schemes",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-08-20",
+  "publisher": "Gehad Sayed Ahmed",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/gegesay89/emop"
+        }
+      ]
+    }
+  ],
+  "description": "Payer organisations for Coverage.payor and Coverage.type.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-insurance-scheme"
+      }
+    ]
+  }
+}

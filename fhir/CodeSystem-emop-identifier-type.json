@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "emop-identifier-type",
+  "url": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-identifier-type",
+  "version": "0.1.0",
+  "name": "EmopIdentifierType",
+  "title": "Egyptian patient identifier types",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-08-20",
+  "publisher": "Gehad Sayed Ahmed",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/gegesay89/emop"
+        }
+      ]
+    }
+  ],
+  "description": "Identifier types a patient may hold, for use as Patient.identifier.type. A patient may hold more than one; each is a separate Patient.identifier entry.",
+  "caseSensitive": true,
+  "valueSet": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-identifier-type",
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "national_id",
+      "display": "National identity number",
+      "definition": "14 digits, issued nationally",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الرقم القومي"
+        },
+        {
+          "language": "en",
+          "value": "National identity number"
+        }
+      ]
+    },
+    {
+      "code": "passport",
+      "display": "Passport number",
+      "definition": "Used where no national identity number exists",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "رقم جواز السفر"
+        },
+        {
+          "language": "en",
+          "value": "Passport number"
+        }
+      ]
+    },
+    {
+      "code": "military_id",
+      "display": "Military identity number",
+      "definition": "Issued within the military care sector",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الرقم العسكري"
+        },
+        {
+          "language": "en",
+          "value": "Military identity number"
+        }
+      ]
+    },
+    {
+      "code": "refugee",
+      "display": "Refugee registration number",
+      "definition": "Issued by the registering agency",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "رقم تسجيل اللاجئ"
+        },
+        {
+          "language": "en",
+          "value": "Refugee registration number"
+        }
+      ]
+    }
+  ]
+}

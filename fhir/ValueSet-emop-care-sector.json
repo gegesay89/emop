@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "id": "emop-care-sector",
+  "url": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-care-sector",
+  "version": "0.1.0",
+  "name": "EmopCareSectorVS",
+  "title": "Egyptian care sectors",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-08-20",
+  "publisher": "Gehad Sayed Ahmed",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/gegesay89/emop"
+        }
+      ]
+    }
+  ],
+  "description": "Civil, military, police, and university care.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-care-sector"
+      }
+    ]
+  }
+}

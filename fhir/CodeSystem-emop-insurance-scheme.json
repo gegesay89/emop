@@ -1,0 +1,156 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "emop-insurance-scheme",
+  "url": "https://gegesay89.github.io/emop/fhir/CodeSystem/emop-insurance-scheme",
+  "version": "0.1.0",
+  "name": "EmopInsuranceScheme",
+  "title": "Egyptian health insurance schemes",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-08-20",
+  "publisher": "Gehad Sayed Ahmed",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/gegesay89/emop"
+        }
+      ]
+    }
+  ],
+  "description": "Payer organisations operating in Egypt, for use as Coverage.payor and Coverage.type. Organisation names are public; this code system carries no benefit schedule, tariff, or eligibility rule.",
+  "caseSensitive": true,
+  "valueSet": "https://gegesay89.github.io/emop/fhir/ValueSet/emop-insurance-scheme",
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "UHIA",
+      "display": "Universal Health Insurance Authority",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الهيئة العامة للتأمين الصحي الشامل"
+        },
+        {
+          "language": "en",
+          "value": "Universal Health Insurance Authority"
+        }
+      ],
+      "property": [
+        {
+          "code": "scheme-type",
+          "valueString": "social"
+        }
+      ]
+    },
+    {
+      "code": "HIO",
+      "display": "Health Insurance Organization",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الهيئة العامة للتأمين الصحي"
+        },
+        {
+          "language": "en",
+          "value": "Health Insurance Organization"
+        }
+      ],
+      "property": [
+        {
+          "code": "scheme-type",
+          "valueString": "social"
+        }
+      ]
+    },
+    {
+      "code": "AFMS",
+      "display": "Armed Forces Medical Services",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الخدمات الطبية بالقوات المسلحة"
+        },
+        {
+          "language": "en",
+          "value": "Armed Forces Medical Services"
+        }
+      ],
+      "property": [
+        {
+          "code": "scheme-type",
+          "valueString": "military"
+        }
+      ]
+    },
+    {
+      "code": "POLICE",
+      "display": "Police medical services",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "الخدمات الطبية للشرطة"
+        },
+        {
+          "language": "en",
+          "value": "Police medical services"
+        }
+      ],
+      "property": [
+        {
+          "code": "scheme-type",
+          "valueString": "military"
+        }
+      ]
+    },
+    {
+      "code": "PRIVATE",
+      "display": "Private insurance",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "تأمين خاص"
+        },
+        {
+          "language": "en",
+          "value": "Private insurance"
+        }
+      ],
+      "property": [
+        {
+          "code": "scheme-type",
+          "valueString": "private"
+        }
+      ]
+    },
+    {
+      "code": "OOP",
+      "display": "Out of pocket",
+      "designation": [
+        {
+          "language": "ar",
+          "value": "إنفاق مباشر"
+        },
+        {
+          "language": "en",
+          "value": "Out of pocket"
+        }
+      ],
+      "property": [
+        {
+          "code": "scheme-type",
+          "valueString": "out_of_pocket"
+        }
+      ]
+    }
+  ],
+  "property": [
+    {
+      "code": "scheme-type",
+      "description": "social, military, private, or out_of_pocket",
+      "type": "string"
+    }
+  ]
+}
